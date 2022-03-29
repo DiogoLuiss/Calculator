@@ -10,7 +10,7 @@ let insert = (num) => {
 }
 
 let Clean = () => {
-    document.getElementById("display").innerHTML = "sd"
+    document.getElementById("display").innerHTML = ""
 }
 
 let Back = () => {
