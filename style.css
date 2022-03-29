@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.Bory_Change {
+    background-color: #4B0082;
+}
+
+.Container {
+    background-color: rgb(94, 94, 94);
+    margin: 150px  auto  50px auto;
+    width: 260px;
+    height: 450px;
+    box-shadow: 0px 0px 8px 8px rgb(226, 221, 221);
+    border: 7px outset rgb(94, 94, 94);
+}
+
+p {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    border: 2px solid rgb(89, 78, 119);
+    font-size: 20px;
+    background-color: #002333;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.Buttons-Container {
+    margin-top: -30px;
+    position: relative;
+    width: 260px;
+    height: 170px;
+    top: 30px;
+    right: 8px;
+    text-align: center;
+
+}
+
+.Buttons {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 4px 0px 0px #616161;
+    background: linear-gradient(to bottom, #606170 5%, #bababa 100%);
+    border-radius: 13px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #383838;
+    display: inline;
+    margin: 8px 0.5px 0px 0.5px;
+}
+
+
+.Buttons:hover {
+    background: linear-gradient(to bottom, #bababa 5%, #606170 100%);
+    background-color: #bababa;
+}
+
+.Buttons:active {
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+
+.Button-large {
+    width: 100px;
+    margin-right: 5px;
+
+}
+
+.Button-large2 {
+    width: 215px;
+
+}
+
+.Change_Theme {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 10px;
+    border: none;
+}
+
+
+
+#Div_Change {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 8px 8px rgb(226, 221, 221);
+    margin: auto;
+
+}
+
+.Button_Change {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    background: linear-gradient(to bottom, #4B0082 5%, #000000 50%);
+    cursor: pointer;
+}
+
+.Button_Change:hover {
+
+    background: linear-gradient(to bottom, #000000 10%, #4B0082 50%);
+}
+
+.Button_Change:active {
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+
+.Button_Change2 {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    background: linear-gradient(to bottom, #000000 10%, #4B0082 50%);
+    cursor: pointer;
+}
+
+.Button_Change2:hover {
+    background: linear-gradient(to bottom, #4B0082 5%, #000000 50%);
+}
